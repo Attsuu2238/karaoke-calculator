@@ -1,130 +1,50 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#6656d9">
-  <meta name="description" content="カラオケの1人あたり料金と全員分の合計を計算するツール">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon" href="icon-192.png">
-  <title>カラオケ料金計算</title>
-  <style>
-    :root{--bg:#f5f4fb;--card:#fff;--ink:#242238;--muted:#77758a;--accent:#6656d9;--accent2:#eeeaff;--line:#e9e7f2;--shadow:0 12px 34px rgba(45,35,100,.08)}
-    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#eeebff 0,#f7f6fb 260px,var(--bg) 100%);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;color:var(--ink);min-height:100vh}
-    .wrap{max-width:520px;margin:0 auto;padding:22px 17px calc(30px + env(safe-area-inset-bottom))}
-    header{padding:12px 4px 20px}.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:800}.title{font-size:27px;line-height:1.25;margin:7px 0 6px;font-weight:850;letter-spacing:-.04em}.sub{color:var(--muted);font-size:13px;margin:0}
-    .panel{background:var(--card);border:1px solid rgba(255,255,255,.8);border-radius:23px;padding:20px;margin:0 0 14px;box-shadow:var(--shadow)}
-    .section-title{font-size:14px;font-weight:800;margin:0 0 13px;display:flex;align-items:center;gap:8px}.num{display:inline-grid;place-items:center;width:23px;height:23px;border-radius:8px;background:var(--accent2);color:var(--accent);font-size:12px}
-    .seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}.seg button,.coupon button{border:1.5px solid var(--line);background:#fff;border-radius:13px;padding:13px 8px;font-size:14px;font-weight:750;color:var(--muted);cursor:pointer;min-height:48px}.seg button.active,.coupon button.active{border-color:var(--accent);background:var(--accent2);color:var(--accent)}
-    .hint{font-size:12px;color:var(--muted);margin:10px 2px 0;line-height:1.55}.people-row{display:flex;align-items:center;gap:12px}.people-row input{width:120px;border:1.5px solid var(--line);border-radius:13px;padding:13px 12px;font-size:20px;font-weight:750;text-align:center;color:var(--ink);background:#fcfbff;outline:none}.people-row input:focus{border-color:var(--accent)}.people-row .unit{font-size:14px}.time-row{display:grid;grid-template-columns:1fr auto 1fr auto;align-items:center;gap:9px}.time-row input{width:100%;min-width:0;border:1.5px solid var(--line);border-radius:13px;padding:14px 10px;font-size:20px;font-weight:750;text-align:center;color:var(--ink);background:#fcfbff;outline:none}.time-row input:focus{border-color:var(--accent)}.unit{font-size:13px;color:var(--muted);font-weight:700}
-    .coupon{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.coupon button{font-size:13px;padding:11px 3px}
-    .result{background:linear-gradient(145deg,#6555d8,#8475ed);color:#fff;border-radius:23px;padding:21px;box-shadow:0 15px 35px rgba(91,75,205,.23);margin-top:17px}.result-label{font-size:12px;opacity:.83;font-weight:700}.amount{font-size:43px;font-weight:900;letter-spacing:-.04em;margin:5px 0 0;font-variant-numeric:tabular-nums}.per{font-size:13px;opacity:.85;margin-left:5px}.group-total{margin-top:15px;padding:14px 15px;border-radius:16px;background:rgba(255,255,255,.15)}.group-label{font-size:12px;opacity:.85;font-weight:700}.group-amount{font-size:29px;font-weight:900;letter-spacing:-.03em;margin-top:3px;font-variant-numeric:tabular-nums}.breakdown{margin-top:17px;padding-top:14px;border-top:1px solid rgba(255,255,255,.25);display:grid;gap:9px}.line{display:flex;justify-content:space-between;gap:12px;font-size:13px}.line span:first-child{opacity:.82}.line strong{font-variant-numeric:tabular-nums}.note{font-size:11px;color:var(--muted);text-align:center;line-height:1.6;margin:15px 8px 0}.hidden{display:none!important}.reset{display:block;margin:14px auto 0;border:0;background:transparent;color:var(--muted);font-size:13px;padding:10px 18px;cursor:pointer}
-    @media(min-width:500px){.wrap{padding-top:34px}.panel{padding:22px}}
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <header>
-      <div class="eyebrow">KARAOKE · PRICE TOOL</div>
-      <h1 class="title">カラオケ料金計算</h1>
-      <p class="sub">1人あたりの料金をかんたん計算</p>
-    </header>
-
-    <section class="panel">
-      <h2 class="section-title"><span class="num">1</span>曜日区分</h2>
-      <div class="seg" id="dayChoices">
-        <button type="button" class="active" data-value="weekday" aria-pressed="true">平日</button>
-        <button type="button" data-value="holiday" aria-pressed="false">土日祝</button>
-      </div>
-    </section>
-
-    <section class="panel">
-      <h2 class="section-title"><span class="num">2</span>Attsuu.同伴</h2>
-      <div class="seg" id="companionChoices">
-        <button type="button" class="active" data-value="yes" aria-pressed="true">同伴あり</button>
-        <button type="button" data-value="no" aria-pressed="false">同伴なし</button>
-      </div>
-    </section>
-
-    <section class="panel">
-      <h2 class="section-title"><span class="num">3</span>利用人数</h2>
-      <div class="people-row">
-        <input id="people" type="number" inputmode="numeric" min="1" max="99" step="1" value="1" aria-label="利用人数">
-        <span class="unit">人</span>
-      </div>
-      <p class="hint">クーポンは利用人数で均等に分けて、1人あたりの料金から差し引きます。</p>
-    </section>
-
-    <section class="panel">
-      <h2 class="section-title"><span class="num">4</span>利用時間</h2>
-      <div class="time-row">
-        <input id="hours" type="number" inputmode="numeric" min="0" max="999" value="1" aria-label="時間">
-        <span class="unit">時間</span>
-        <input id="minutes" type="number" inputmode="numeric" min="0" max="59" value="0" aria-label="分">
-        <span class="unit">分</span>
-      </div>
-      <p class="hint">土日祝は30分ごとに計算し、1分でも超えた分は次の30分に繰り上げます。</p>
-    </section>
-
-    <section class="panel hidden" id="couponPanel">
-      <h2 class="section-title"><span class="num">5</span>クーポン</h2>
-      <div class="coupon" id="couponChoices">
-        <button type="button" class="active" data-value="0" aria-pressed="true">なし</button>
-        <button type="button" data-value="500" aria-pressed="false">¥500</button>
-        <button type="button" data-value="1000" aria-pressed="false">¥1,000</button>
-      </div>
-      <p class="hint">選んだクーポン額を人数で割り、1人あたりの料金から差し引きます。</p>
-    </section>
-
-    <section class="result" aria-live="polite">
-      <div class="result-label">お支払い目安（1人あたり）</div>
-      <div><span class="amount" id="total">¥493</span><span class="per">/ 人</span></div>
-      <div class="group-total">
-        <div class="group-label">全員分の合計（<span id="peopleLabel">1</span>人）</div>
-        <div class="group-amount" id="groupTotal">¥493</div>
-      </div>
-      <div class="breakdown" id="breakdown"></div>
-    </section>
-    <button class="reset" id="reset" type="button">入力をリセット</button>
-    <p class="note">このツールは入力された条件に基づく概算です。実際の店舗料金・適用条件を確認してください。</p>
-  </main>
-  <script>
-    const state={day:'weekday',companion:'yes',coupon:0};
-    const $=id=>document.getElementById(id);
-    function setGroup(id,key,value){state[key]=value;document.querySelectorAll(`#${id} button`).forEach(b=>{const on=b.dataset.value===String(value);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});render();}
-    $('dayChoices').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setGroup('dayChoices','day',b.dataset.value)});
-    $('companionChoices').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setGroup('companionChoices','companion',b.dataset.value)});
-    $('couponChoices').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setGroup('couponChoices','coupon',Number(b.dataset.value))});
-    $('hours').addEventListener('input',render);$('minutes').addEventListener('input',render);$('people').addEventListener('input',render);
-    const yen=n=>'¥'+Number(n.toFixed(2)).toLocaleString('ja-JP',{maximumFractionDigits:2});
-    function render(){
-      const couponVisible=state.day==='holiday'&&state.companion==='yes';$('couponPanel').classList.toggle('hidden',!couponVisible);
-      const h=Math.max(0,Math.min(999,Number($('hours').value)||0));const m=Math.max(0,Math.min(59,Number($('minutes').value)||0));const duration=h*60+m;
-      const people=Math.max(1,Math.min(99,Math.floor(Number($('people').value)||1)));
-      let base,step,rounds=0,discountPerPerson=0,totalPerPerson;
-      if(state.day==='weekday'){base=state.companion==='yes'?493:580;step=0;totalPerPerson=base;}
-      else{
-        base=state.companion==='yes'?493:580;step=state.companion==='yes'?47:55;rounds=Math.ceil(duration/30);
-        discountPerPerson=couponVisible?state.coupon/people:0;
-        totalPerPerson=Math.max(0,base+step*rounds-discountPerPerson);
-      }
-      const groupTotal=totalPerPerson*people;
-      $('total').textContent=yen(totalPerPerson);
-      $('groupTotal').textContent=yen(groupTotal);
-      $('peopleLabel').textContent=people;
-      const rows=[];
-      rows.push(`<div class="line"><span>基本料金（1人）</span><strong>${yen(base)}</strong></div>`);
-      if(state.day==='holiday'){
-        rows.push(`<div class="line"><span>時間加算（${rounds}回 × ${yen(step)}）</span><strong>+${yen(rounds*step)}</strong></div>`);
-        if(discountPerPerson)rows.push(`<div class="line"><span>クーポン割引（1人あたり）</span><strong>-${yen(discountPerPerson)}</strong></div>`);
-        rows.push(`<div class="line"><span>利用時間</span><strong>${h}時間${m}分</strong></div>`);
-      }else rows.push(`<div class="line"><span>利用時間</span><strong>${h}時間${m}分（定額）</strong></div>`);
-      if(couponVisible&&state.coupon)rows.push(`<div class="line"><span>クーポン利用額（全員分）</span><strong>${yen(state.coupon)}</strong></div>`);
-      $('breakdown').innerHTML=rows.join('');
-    }
-    $('reset').addEventListener('click',()=>{state.day='weekday';state.companion='yes';state.coupon=0;$('people').value=1;$('hours').value=1;$('minutes').value=0;[['dayChoices','weekday'],['companionChoices','yes'],['couponChoices','0']].forEach(([id,v])=>{document.querySelectorAll(`#${id} button`).forEach(b=>{const on=b.dataset.value===v;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});});render();});
-    if('serviceWorker' in navigator && location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js').catch(()=>{});
-    render();
-  </script>
-</body>
-</html>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f28cab"><meta name="description" content="カラオケ料金の1人あたり・全員分を計算するツール">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png">
+<title>カラオケ料金計算</title>
+<style>
+:root{--bg:#fff5f8;--card:#fff;--ink:#442b37;--muted:#987b88;--accent:#e96f98;--accent2:#ffe4ed;--line:#f4d6e1;--shadow:0 12px 32px rgba(174,82,117,.11)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#ffe3ed 0,#fff7fa 280px,var(--bg) 100%);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;color:var(--ink);min-height:100vh}
+.wrap{max-width:540px;margin:0 auto;padding:20px 16px calc(30px + env(safe-area-inset-bottom))}header{padding:12px 4px 20px}.eyebrow{font-size:11px;letter-spacing:.14em;color:#c34d7a;font-weight:900}.title{font-size:28px;line-height:1.25;margin:7px 0 6px;font-weight:900;letter-spacing:-.04em}.sub{color:var(--muted);font-size:13px;margin:0}
+.panel{background:var(--card);border:1px solid #fff;border-radius:22px;padding:18px;margin:0 0 13px;box-shadow:var(--shadow)}.section-title{font-size:14px;font-weight:850;margin:0 0 12px;display:flex;align-items:center;gap:8px}.num{display:inline-grid;place-items:center;width:23px;height:23px;border-radius:8px;background:var(--accent2);color:#c34d7a;font-size:12px}
+.seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.seg.three{grid-template-columns:repeat(3,minmax(0,1fr))}.seg button,.coupon button{border:1.5px solid var(--line);background:#fff;border-radius:13px;padding:12px 7px;font-size:14px;font-weight:800;color:var(--muted);cursor:pointer;min-height:47px}.seg button.active,.coupon button.active{border-color:var(--accent);background:var(--accent2);color:#bd4e78}.hint{font-size:12px;color:var(--muted);margin:9px 2px 0;line-height:1.55}.people-row{display:flex;align-items:center;gap:12px}.people-row input,.time-row input{border:1.5px solid var(--line);border-radius:13px;padding:12px 10px;font-size:19px;font-weight:800;text-align:center;color:var(--ink);background:#fffafd;outline:none}.people-row input{width:120px}.time-row{display:grid;grid-template-columns:1fr auto 1fr auto;align-items:center;gap:8px}.time-row input{width:100%;min-width:0}.people-row input:focus,.time-row input:focus{border-color:var(--accent)}.unit{font-size:13px;color:var(--muted);font-weight:750}.coupon{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.coupon button{font-size:13px;padding:10px 2px}
+.result{background:linear-gradient(145deg,#e96f98,#f5a5bd);color:#fff;border-radius:23px;padding:21px;box-shadow:0 15px 35px rgba(205,91,132,.22);margin-top:16px}.result-label{font-size:12px;opacity:.9;font-weight:750}.amount{font-size:42px;font-weight:950;letter-spacing:-.04em;margin:5px 0 0;font-variant-numeric:tabular-nums}.per{font-size:13px;opacity:.9;margin-left:5px}.group-total{margin-top:14px;padding:14px 15px;border-radius:16px;background:rgba(255,255,255,.18)}.group-label{font-size:12px;opacity:.9;font-weight:750}.group-amount{font-size:29px;font-weight:950;margin-top:3px;font-variant-numeric:tabular-nums}.breakdown{margin-top:16px;padding-top:13px;border-top:1px solid rgba(255,255,255,.3);display:grid;gap:9px}.line{display:flex;justify-content:space-between;gap:12px;font-size:13px}.line span:first-child{opacity:.9}.line strong{font-variant-numeric:tabular-nums}.notice{background:#fff0f5;border:1px solid #f6cad9;color:#a64d70;padding:13px;border-radius:14px;font-size:13px;line-height:1.6}.reset{display:block;margin:13px auto 0;border:0;background:transparent;color:var(--muted);font-size:13px;padding:10px 18px;cursor:pointer}.note{font-size:11px;color:var(--muted);text-align:center;line-height:1.6;margin:14px 8px 0}.hidden{display:none!important}
+@media(min-width:500px){.wrap{padding-top:30px}.panel{padding:21px}}
+</style></head><body><main class="wrap">
+<header><div class="eyebrow">KARAOKE · PRICE TOOL</div><h1 class="title">カラオケ料金計算</h1><p class="sub">お店を選んで、1人あたり・全員分の料金を計算</p></header>
+<section class="panel"><h2 class="section-title"><span class="num">1</span>お店を選択</h2><div class="seg three" id="shopChoices"><button class="active" data-value="maneki" aria-pressed="true">まねきねこ</button><button data-value="bigeco" aria-pressed="false">ビッグエコー</button><button data-value="joysound" aria-pressed="false">JOYSOUND</button></div></section>
+<section class="panel"><h2 class="section-title"><span class="num">2</span>曜日区分</h2><div class="seg" id="dayChoices"><button class="active" data-value="weekday" aria-pressed="true">平日</button><button data-value="holiday" aria-pressed="false">土日祝</button></div></section>
+<section class="panel" id="companionPanel"><h2 class="section-title"><span class="num">3</span>Attsuu.同伴</h2><div class="seg" id="companionChoices"><button class="active" data-value="yes" aria-pressed="true">同伴あり</button><button data-value="no" aria-pressed="false">同伴なし</button></div></section>
+<section class="panel"><h2 class="section-title"><span class="num">4</span>利用人数</h2><div class="people-row"><input id="people" type="number" inputmode="numeric" min="1" max="99" step="1" value="2" aria-label="利用人数"><span class="unit">人</span></div><p class="hint" id="peopleHint">クーポンは人数で均等に分けて、1人あたりの料金から差し引きます。</p></section>
+<section class="panel" id="timePanel"><h2 class="section-title"><span class="num">5</span>利用時間</h2><div class="time-row"><input id="hours" type="number" inputmode="numeric" min="0" max="999" value="1" aria-label="時間"><span class="unit">時間</span><input id="minutes" type="number" inputmode="numeric" min="0" max="59" value="0" aria-label="分"><span class="unit">分</span></div><p class="hint">30分単位で計算し、1分でも超えたら次の30分に繰り上げます。</p></section>
+<section class="panel hidden" id="couponPanel"><h2 class="section-title"><span class="num">6</span>クーポン</h2><div class="coupon" id="couponChoices"><button class="active" data-value="0" aria-pressed="true">なし</button><button data-value="10" aria-pressed="false">10%OFF</button><button data-value="30" aria-pressed="false">30%OFF</button><button data-value="50" aria-pressed="false">50%OFF</button></div><p class="hint" id="couponHint"></p></section>
+<section class="panel hidden" id="drinkPanel"><h2 class="section-title"><span class="num">7</span>ドリンク</h2><div class="seg" id="drinkChoices"><button class="active" data-value="one" aria-pressed="true">ワンドリンク</button><button data-value="bar" aria-pressed="false">ドリンクバー</button></div><p class="hint">ワンドリンクは＋¥500。ドリンクバーは＋¥660です。</p></section>
+<div class="notice hidden" id="unknownNotice"></div>
+<section class="result" aria-live="polite"><div class="result-label">お支払い目安（1人あたり）</div><div><span class="amount" id="total">¥493</span><span class="per">/ 人</span></div><div class="group-total"><div class="group-label">全員分の合計（<span id="peopleLabel">2</span>人）</div><div class="group-amount" id="groupTotal">¥986</div></div><div class="breakdown" id="breakdown"></div></section>
+<button class="reset" id="reset" type="button">入力をリセット</button><p class="note">入力条件に基づく概算です。実際の店舗料金・クーポン適用条件をご確認ください。</p>
+</main><script>
+const state={shop:'maneki',day:'weekday',companion:'yes',coupon:0,drink:'one'};const $=id=>document.getElementById(id);
+function setGroup(id,key,value){state[key]=value;document.querySelectorAll(`#${id} button`).forEach(b=>{const on=b.dataset.value===String(value);b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});render();}
+[['shopChoices','shop'],['dayChoices','day'],['companionChoices','companion'],['couponChoices','coupon'],['drinkChoices','drink']].forEach(([id,key])=>$(id).addEventListener('click',e=>{const b=e.target.closest('button');if(b)setGroup(id,key,key==='coupon'?Number(b.dataset.value):b.dataset.value)}));
+['hours','minutes','people'].forEach(id=>$(id).addEventListener('input',render));
+const yen=n=>'¥'+Math.round(n).toLocaleString('ja-JP');const ceil30=m=>Math.ceil(m/30);
+function render(){
+ const h=Math.max(0,Math.min(999,Number($('hours').value)||0)),m=Math.max(0,Math.min(59,Number($('minutes').value)||0)),duration=h*60+m;
+ const people=Math.max(1,Math.min(99,Math.floor(Number($('people').value)||1)));$('peopleLabel').textContent=people;
+ const isManeki=state.shop==='maneki',isBig=state.shop==='bigeco',isJoy=state.shop==='joysound';
+ $('companionPanel').classList.toggle('hidden',!isManeki);$('timePanel').classList.toggle('hidden',isJoy);$('couponPanel').classList.toggle('hidden',isManeki?!(state.day==='holiday'&&state.companion==='yes'):!isBig);$('drinkPanel').classList.toggle('hidden',!isBig);
+ $('peopleHint').textContent=isBig?'今回のビッグエコー料金は2人利用時の情報を基準にしています。1人利用の料金は不明です。':isJoy?'JOYSOUNDは1人利用の休日料金が不明です。':'クーポンは人数で均等に分けて、1人あたりの料金から差し引きます。';
+ $('couponHint').textContent=isBig?(state.drink==='bar'?'ドリンクバーではクーポン種類にかかわらず、室料＋ドリンクバー代の総額から10%OFFです。':'ワンドリンクでは、選んだ割合を室料から割引してから＋¥500します。'):'選んだクーポン額を人数で均等に分けます。';
+ let per=0,known=true,rows=[];
+ if(isManeki){const base=state.day==='weekday'?(state.companion==='yes'?493:580):(state.companion==='yes'?493:580);const step=state.day==='holiday'?(state.companion==='yes'?47:55):0;const rounds=state.day==='holiday'?ceil30(duration):0;const couponOn=state.day==='holiday'&&state.companion==='yes';const discount=couponOn?state.coupon/people:0;per=Math.max(0,base+step*rounds-discount);rows.push(['基本料金（1人）',yen(base)]);if(step)rows.push([`時間加算（${rounds}回 × ${yen(step)}）`,'+'+yen(rounds*step)]);rows.push(['利用時間',`${h}時間${m}分`]);if(discount)rows.push(['クーポン割引（1人分）','-'+yen(discount)]);}
+ if(isBig){if(people===1){known=false;}else{const rate=state.day==='weekday'?70:100;let room;if(duration===0)room=0;else if(duration===180)room=state.day==='weekday'?350:500;else if(duration>=210)room=state.day==='weekday'?420:600;else room=ceil30(duration)*rate;const drink=state.drink==='one'?500:660;let subtotal;if(state.drink==='one'){subtotal=room*(1-state.coupon/100)+drink;rows.push(['室料（クーポン適用後）',yen(room*(1-state.coupon/100))]);rows.push(['ワンドリンク','+'+yen(drink)]);}else{subtotal=(room+drink)*(state.coupon?0.9:1);rows.push(['室料（割引前）',yen(room)]);rows.push(['ドリンクバー','+'+yen(drink)]);if(state.coupon)rows.push(['総額10%OFF','-'+yen((room+drink)*0.1)]);}per=subtotal;rows.unshift(['室料（割引前）',yen(room)]);}}
+ if(isJoy){if(state.day==='weekday'){per=660;rows.push(['平日料金（時間・人数によらず）',yen(660)]);}else if(people>=2){per=1100;rows.push(['休日料金（1人あたり）',yen(1100)]);}else{known=false;}}
+ $('unknownNotice').classList.toggle('hidden',known);if(!known){$('unknownNotice').textContent=isBig?'ビッグエコーの1人利用料金は未確認です。2人以上で計算してください。':'JOYSOUNDの休日・1人利用料金は未確認です。';$('total').textContent='不明';$('groupTotal').textContent='不明';$('breakdown').innerHTML='<div class="line"><span>料金情報</span><strong>未確認</strong></div>';return;}
+ $('total').textContent=yen(per);$('groupTotal').textContent=yen(per*people);$('breakdown').innerHTML=rows.map(([a,b])=>`<div class="line"><span>${a}</span><strong>${b}</strong></div>`).join('');
+}
+$('reset').addEventListener('click',()=>{Object.assign(state,{shop:'maneki',day:'weekday',companion:'yes',coupon:0,drink:'one'});$('people').value=2;$('hours').value=1;$('minutes').value=0;[['shopChoices','maneki'],['dayChoices','weekday'],['companionChoices','yes'],['couponChoices','0'],['drinkChoices','one']].forEach(([id,v])=>document.querySelectorAll(`#${id} button`).forEach(b=>{const on=b.dataset.value===v;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));}));render();});
+if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js').catch(()=>{});render();
+</script></body></html>
