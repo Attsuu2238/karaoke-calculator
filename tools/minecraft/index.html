@@ -1,32 +1,203 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2B244D">
+  <title>Minecraft 収納量計算機</title>
+  <style>
+    :root {
+      --pink: #FFB1BE;
+      --navy: #2B244D;
+      --green: #88E47A;
+      --coral: #DA6452;
+      --brown: #4B3E37;
+      --paper: #FFF9FA;
+      --white: #FFFFFF;
+      --muted: #81798C;
+      --line: #E9E1EA;
+      --shadow: 0 8px 24px rgba(43,36,77,.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px 16px 40px;
+      color: var(--navy);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(255,177,190,.28), transparent 28rem),
+        var(--paper);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif;
+    }
+    .app { width: min(100%, 560px); margin: 0 auto; }
+    header { margin: 4px 2px 22px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 7px;
+      color: var(--brown); font-size: 12px; font-weight: 800;
+      letter-spacing: .09em; text-transform: uppercase;
+    }
+    .pixel {
+      width: 10px; height: 10px; background: var(--green);
+      box-shadow: 4px 0 var(--green), 0 4px var(--green), 4px 4px var(--green);
+      margin: 0 5px 4px 0;
+    }
+    h1 { margin: 10px 0 6px; font-size: clamp(25px, 7vw, 32px); line-height: 1.2; letter-spacing: -.04em; }
+    .subtitle { margin: 0; color: var(--muted); font-size: 13px; }
+    .panel {
+      background: var(--white); border: 1px solid rgba(43,36,77,.07);
+      border-radius: 22px; padding: 20px; box-shadow: var(--shadow);
+      margin-bottom: 15px;
+    }
+    .section-title {
+      margin: 0 0 15px; font-size: 15px; font-weight: 850;
+      display: flex; align-items: center; gap: 9px;
+    }
+    .section-title::before {
+      content: ""; width: 5px; height: 18px; border-radius: 8px; background: var(--pink);
+    }
+    label { display: block; margin: 0 0 8px; font-size: 13px; font-weight: 750; }
+    .number-wrap { position: relative; }
+    input[type="number"] {
+      width: 100%; height: 56px; border: 2px solid var(--line);
+      border-radius: 14px; padding: 0 52px 0 15px;
+      color: var(--navy); background: #FFFCFD; font-size: 21px; font-weight: 800;
+      outline: none; transition: border-color .15s, box-shadow .15s;
+    }
+    input[type="number"]:focus { border-color: var(--pink); box-shadow: 0 0 0 4px rgba(255,177,190,.2); }
+    input::-webkit-inner-spin-button, input::-webkit-outer-spin-button { opacity: 1; }
+    .unit { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 13px; font-weight: 700; pointer-events: none; }
+    .choices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+    .choice { position: relative; }
+    .choice input { position: absolute; opacity: 0; pointer-events: none; }
+    .choice span {
+      display: flex; min-height: 48px; justify-content: center; align-items: center;
+      border: 2px solid var(--line); border-radius: 13px; background: #FFFCFD;
+      font-size: 14px; font-weight: 800; cursor: pointer; transition: .15s;
+    }
+    .choice input:checked + span { border-color: var(--navy); background: var(--navy); color: white; }
+    .choice input:focus-visible + span { outline: 3px solid rgba(255,177,190,.7); outline-offset: 2px; }
+    .hint { margin: 9px 0 0; color: var(--muted); font-size: 11px; }
+    .results { display: grid; gap: 12px; }
+    .result-card {
+      border-radius: 18px; padding: 17px; background: #FFF8FA;
+      border: 1px solid rgba(255,177,190,.65);
+    }
+    .result-card.reserve { background: #F8FFF6; border-color: rgba(136,228,122,.75); }
+    .result-label { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+    .result-label strong { font-size: 14px; }
+    .tag { border-radius: 999px; padding: 4px 9px; background: var(--pink); color: var(--navy); font-size: 10px; font-weight: 850; }
+    .reserve .tag { background: var(--green); }
+    .main-result { font-size: clamp(23px, 7vw, 30px); line-height: 1.25; font-weight: 900; letter-spacing: -.04em; overflow-wrap: anywhere; }
+    .main-result small { font-size: 14px; letter-spacing: 0; }
+    .sub-result { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(43,36,77,.1); display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--muted); }
+    .sub-result strong { color: var(--navy); font-size: 14px; }
+    .empty { color: var(--muted); font-size: 13px; font-weight: 600; }
+    .notes { background: #F7F5FA; border-radius: 16px; padding: 15px 16px; }
+    .notes-title { margin: 0 0 8px; font-size: 12px; font-weight: 850; color: var(--brown); }
+    .notes p { margin: 5px 0; font-size: 11px; line-height: 1.7; color: #625A70; }
+    footer { text-align: center; color: #9B93A5; font-size: 10px; padding: 10px 0 0; }
+    @media (max-width: 380px) {
+      body { padding-left: 12px; padding-right: 12px; }
+      .panel { padding: 16px; }
+      .main-result { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="eyebrow"><span class="pixel" aria-hidden="true"></span> MINECRAFT TOOL</div>
+      <h1>収納量計算機</h1>
+      <p class="subtitle">アイテム数から、シュルカーやチェストの必要量を計算</p>
+    </header>
 
-MINECRAFT TOOL
-収納量計算機
-アイテム数から、シュルカーやチェストの必要量を計算
-計算するアイテム数
-アイテム総数
-個
+    <section class="panel" aria-labelledby="input-title">
+      <h2 class="section-title" id="input-title">計算するアイテム数</h2>
+      <label for="total">アイテム総数</label>
+      <div class="number-wrap">
+        <input id="total" type="number" min="0" step="1" inputmode="numeric" placeholder="例：10000">
+        <span class="unit">個</span>
+      </div>
+      <div style="height:18px"></div>
+      <label>1スタックの個数</label>
+      <div class="choices" role="radiogroup" aria-label="1スタックの個数">
+        <label class="choice"><input type="radio" name="stack" value="64" checked><span>64個</span></label>
+        <label class="choice"><input type="radio" name="stack" value="16"><span>16個</span></label>
+        <label class="choice"><input type="radio" name="stack" value="1"><span>1個</span></label>
+      </div>
+      <p class="hint">スタック数は計算のたびに選択できます。</p>
+    </section>
 
-1スタックの個数
+    <section class="panel" aria-labelledby="result-title">
+      <h2 class="section-title" id="result-title">計算結果</h2>
+      <div class="results" aria-live="polite">
+        <div class="result-card">
+          <div class="result-label"><strong>通常の数</strong><span class="tag">通常計算</span></div>
+          <div class="main-result" id="normal-main"><span class="empty">アイテム数を入力してください</span></div>
+          <div class="sub-result"><span>ラージチェスト換算</span><strong id="normal-chest">—</strong></div>
+        </div>
+        <div class="result-card reserve">
+          <div class="result-label"><strong>予備込み数</strong><span class="tag">102%</span></div>
+          <div class="main-result" id="reserve-main"><span class="empty">アイテム数を入力してください</span></div>
+          <div class="sub-result"><span>ラージチェスト換算</span><strong id="reserve-chest">—</strong></div>
+        </div>
+      </div>
+    </section>
 
-64個
+    <section class="panel" aria-labelledby="notes-title">
+      <h2 class="section-title" id="notes-title">注意書き</h2>
+      <div class="notes">
+        <p>shはシュルカー、stはスタック</p>
+        <p>予備込み数とは、建築などで使う際の予備を含め予めやや多めにした数です(102%)</p>
+        <p>※ラージチェスト換算は、3456個を1個分として計算します。</p>
+      </div>
+    </section>
+    <footer>MINECRAFT STORAGE CALCULATOR</footer>
+  </main>
 
-16個
+  <script>
+    const totalInput = document.getElementById('total');
+    const stackInputs = document.querySelectorAll('input[name="stack"]');
+    const normalMain = document.getElementById('normal-main');
+    const reserveMain = document.getElementById('reserve-main');
+    const normalChest = document.getElementById('normal-chest');
+    const reserveChest = document.getElementById('reserve-chest');
 
-1個
-スタック数は計算のたびに選択できます。
-計算結果
-通常の数
-通常計算
-アイテム数を入力してください
-ラージチェスト換算
-—
-予備込み数
-102%
-アイテム数を入力してください
-ラージチェスト換算
-—
-注意書き
-shはシュルカー、stはスタック
-予備込み数とは、建築などで使う際の予備を含め予めやや多めにした数です(102%)
-※ラージチェスト換算は、3456個を1個分として計算します。
-MINECRAFT STORAGE CALCULATOR
+    const format = n => n.toLocaleString('ja-JP');
+
+    function makeResult(total, stackSize) {
+      const shSize = stackSize * 27;
+      const sh = Math.floor(total / shSize);
+      const afterSh = total % shSize;
+      const st = Math.floor(afterSh / stackSize);
+      const pieces = afterSh % stackSize;
+      return `${format(sh)}sh ${format(st)}st ${format(pieces)}個`;
+    }
+
+    function update() {
+      const raw = totalInput.value.trim();
+      const stackSize = Number(document.querySelector('input[name="stack"]:checked').value);
+
+      if (raw === '' || !Number.isFinite(Number(raw)) || Number(raw) < 0) {
+        normalMain.innerHTML = '<span class="empty">アイテム数を入力してください</span>';
+        reserveMain.innerHTML = '<span class="empty">アイテム数を入力してください</span>';
+        normalChest.textContent = '—';
+        reserveChest.textContent = '—';
+        return;
+      }
+
+      const total = Math.floor(Number(raw));
+      const reserveTotal = Math.ceil(total * 1.02);
+
+      normalMain.textContent = makeResult(total, stackSize);
+      reserveMain.textContent = makeResult(reserveTotal, stackSize);
+      normalChest.textContent = (total / 3456).toFixed(2) + '個分';
+      reserveChest.textContent = (reserveTotal / 3456).toFixed(2) + '個分';
+    }
+
+    totalInput.addEventListener('input', update);
+    stackInputs.forEach(input => input.addEventListener('change', update));
+    update();
+  </script>
+</body>
+</html>
