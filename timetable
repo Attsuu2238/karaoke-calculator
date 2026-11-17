@@ -16,7 +16,7 @@
           "connections": [],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線3分後、北しなの線12分後"
         },
         {
           "departure": "06:00",
@@ -26,7 +26,7 @@
           "connections": [],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線6分後"
         },
         {
           "departure": "06:33",
@@ -36,7 +36,7 @@
           "connections": [],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線8分後"
         },
         {
           "departure": "06:56",
@@ -46,7 +46,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線3分後"
         },
         {
           "departure": "07:24",
@@ -56,7 +56,7 @@
           "connections": [],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線3分後"
         },
         {
           "departure": "07:36",
@@ -66,7 +66,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線接続なし"
         },
         {
           "departure": "08:05",
@@ -76,7 +76,7 @@
           "connections": [],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "接続なし"
         },
         {
           "departure": "08:17",
@@ -86,7 +86,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線3分後"
         },
         {
           "departure": "08:38",
@@ -96,7 +96,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "接続なし"
         },
         {
           "departure": "09:01",
@@ -106,7 +106,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "妙高から先、トキ鉄 直江津行き5分後"
         },
         {
           "departure": "09:35",
@@ -116,7 +116,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線31分後"
         },
         {
           "departure": "10:17",
@@ -126,7 +126,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線15分後"
         },
         {
           "departure": "10:52",
@@ -136,7 +136,7 @@
           "connections": [],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線3分後"
         },
         {
           "departure": "11:33",
@@ -146,7 +146,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線20分後"
         },
         {
           "departure": "12:13",
@@ -156,7 +156,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線3分後"
         },
         {
           "departure": "12:53",
@@ -166,7 +166,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線5分後"
         },
         {
           "departure": "13:33",
@@ -176,7 +176,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線12分後、北しなの線18分後"
         },
         {
           "departure": "14:13",
@@ -186,7 +186,7 @@
           "connections": [],
           "origin": null,
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線34分後"
         },
         {
           "departure": "14:45",
@@ -196,7 +196,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線19分後"
         },
         {
           "departure": "15:17",
@@ -206,7 +206,7 @@
           "connections": [],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線8分後、飯山線33分後"
         },
         {
           "departure": "15:53",
@@ -216,7 +216,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線18分後"
         },
         {
           "departure": "16:20",
@@ -226,7 +226,7 @@
           "connections": [],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "接続なし"
         },
         {
           "departure": "16:46",
@@ -236,7 +236,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線3分後"
         },
         {
           "departure": "16:59",
@@ -246,7 +246,7 @@
           "connections": [],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線3分後"
         },
         {
           "departure": "17:28",
@@ -256,7 +256,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "飯山線18分後"
         },
         {
           "departure": "17:51",
@@ -266,7 +266,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "北しなの線3分後"
         },
         {
           "departure": "18:03",
@@ -276,7 +276,7 @@
           "connections": [],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "接続なし"
         },
         {
           "departure": "18:20",
@@ -286,7 +286,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "妙高から先、トキ鉄 直江津行き16分後"
         },
         {
           "departure": "18:54",
@@ -296,7 +296,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "接続なし"
         },
         {
           "departure": "19:10",
