@@ -14,7 +14,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "戸倉",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
