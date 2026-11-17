@@ -44,7 +44,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "小諸",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -54,17 +54,17 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "上田",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
         {
           "departure": "07:36",
-          "destination": "要確認",
+          "destination": "豊野",
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
