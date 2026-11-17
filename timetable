@@ -74,7 +74,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "上田",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -84,7 +84,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "小諸",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -94,7 +94,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "小諸",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -104,7 +104,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "小諸",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -114,7 +114,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -124,7 +124,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -134,7 +134,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "上田",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -144,7 +144,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -154,7 +154,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -164,7 +164,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -174,7 +174,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -182,7 +182,7 @@
           "departure": "14:13",
           "destination": "長野",
           "trainType": "普通",
-          "cars": null,
+          "cars": "軽井沢",
           "connections": [],
           "origin": null,
           "travelTimesMinutes": {},
@@ -194,7 +194,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -204,7 +204,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "上田",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -214,7 +214,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "軽井沢",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
@@ -224,7 +224,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": [],
-          "origin": null,
+          "origin": "戸倉",
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
