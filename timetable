@@ -1,0 +1,1525 @@
+{
+  "station": {
+    "name": "屋代高校前",
+    "operator": "しなの鉄道"
+  },
+  "timetableRevision": "2026-03-14",
+  "edition": "第1回・発車時刻の基礎データ",
+  "directions": {
+    "長野方面": {
+      "weekday": [
+        {
+          "departure": "05:30",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:00",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:33",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:56",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:24",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:36",
+          "destination": "要確認",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:05",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:17",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:38",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "09:01",
+          "destination": "妙高高原",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "09:35",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:17",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:52",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "11:33",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:13",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:53",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "13:33",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:13",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:45",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "15:17",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "15:53",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:20",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:46",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:59",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:28",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:51",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:03",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:20",
+          "destination": "妙高高原",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:54",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:10",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:40",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:16",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:56",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "21:34",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:12",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:43",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "23:32",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        }
+      ],
+      "holiday": [
+        {
+          "departure": "05:30",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:00",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:33",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:56",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:24",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:36",
+          "destination": "要確認",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:17",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:38",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "09:01",
+          "destination": "妙高高原",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "09:35",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:17",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:52",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "11:33",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:13",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:53",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "13:33",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:13",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:45",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "15:17",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "15:53",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:20",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:46",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:59",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:28",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:51",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:20",
+          "destination": "妙高高原",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:54",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:10",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:40",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:16",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:56",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "21:34",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:12",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:43",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "23:32",
+          "destination": "長野",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        }
+      ]
+    },
+    "軽井沢方面": {
+      "weekday": [
+        {
+          "departure": "05:41",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:13",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:35",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:54",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:16",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:38",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:12",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:23",
+          "destination": "戸倉",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:45",
+          "destination": "戸倉",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:58",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "09:22",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:04",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:43",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "11:22",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:03",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:42",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "13:22",
+          "destination": "戸倉",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:02",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:43",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "15:22",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:02",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:40",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:02",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:36",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:00",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:20",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:58",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:18",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:40",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:21",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:56",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "21:43",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:16",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:56",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "23:37",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        }
+      ],
+      "holiday": [
+        {
+          "departure": "05:41",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:13",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:35",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "06:54",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:16",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "07:38",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:12",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:23",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "08:58",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "09:22",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:04",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "10:43",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "11:22",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:03",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "12:42",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "13:22",
+          "destination": "戸倉",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:02",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "14:43",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "15:22",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:02",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "16:40",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:02",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "17:36",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:00",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:20",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "18:58",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:18",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "19:40",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [
+            "小諸駅で軽井沢行き接続（要時刻確認）"
+          ],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:21",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "20:56",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "21:43",
+          "destination": "軽井沢",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:16",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "22:56",
+          "destination": "小諸",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        },
+        {
+          "departure": "23:37",
+          "destination": "上田",
+          "trainType": "普通",
+          "cars": null,
+          "connections": [],
+          "origin": null,
+          "travelTimesMinutes": {},
+          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+        }
+      ]
+    }
+  },
+  "plannedDetailFields": {
+    "origin": "始発駅（未調査）",
+    "cars": "両数（未調査）",
+    "travelTimesMinutes": [
+      "北長野",
+      "長野",
+      "今井",
+      "篠ノ井",
+      "千曲",
+      "坂城",
+      "上田",
+      "小諸",
+      "御代田"
+    ],
+    "connectionsToVerify": [
+      "長野駅：北しなの線（妙高高原方面）",
+      "長野駅：飯山線",
+      "小諸駅：小海線",
+      "小諸駅：しなの鉄道・軽井沢方面"
+    ]
+  },
+  "dataQualityNotes": [
+    "時刻・行先は2026年3月14日改正として公開されている駅.Lockyの屋代高校前駅データを基礎に整理。",
+    "長野方面07:36発はYahoo!路線情報に豊野行の表示があり、駅.Lockyの行先表示と食い違うため「要確認」とした。",
+    "長野方面の土休日は駅.Lockyの土休日データに従い08:05発・18:03発を除外。",
+    "軽井沢方面の土休日は駅.Lockyの土休日データに従い08:23発を軽井沢行として反映し、08:45発を除外。",
+    "接続フラグは駅.Lockyの「終点で軽井沢行きに接続」表示がある列車のみ仮登録。実際の乗継可能性・接続時刻は未検証。",
+    "両数・始発駅・主要駅所要時間・北しなの線・飯山線・小海線の接続判定は未調査。"
+  ],
+  "sources": [
+    {
+      "name": "しなの鉄道公式時刻表ページ",
+      "url": "https://www.shinanorailway.co.jp/rail-info/time-table/",
+      "note": "2026年3月14日改正の公式PDF掲載ページ"
+    },
+    {
+      "name": "駅.Locky 屋代高校前・長野方面",
+      "url": "https://eki.locky.jp/timetables/446975/",
+      "note": "2026年3月14日ダイヤ改正版、平日・土休日"
+    },
+    {
+      "name": "駅.Locky 屋代高校前・軽井沢方面",
+      "url": "https://eki.locky.jp/timetables/log/181496/",
+      "note": "2026年3月14日ダイヤ改正版、平日・土休日"
+    },
+    {
+      "name": "Yahoo!路線情報 屋代高校前・長野方面",
+      "url": "https://transit.yahoo.co.jp/timetable/29349/6711",
+      "note": "07:36発の行先確認用"
+    }
+  ]
+}
