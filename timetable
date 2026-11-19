@@ -346,7 +346,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線14分後"
+          "dataStatus": "北しなの線14分後(妙高最終)"
         },
         {
           "departure": "22:12",
@@ -356,7 +356,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線24分後"
+          "dataStatus": "飯山線24分後(最終)"
         },
         {
           "departure": "22:43",
@@ -366,11 +366,11 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線19分後"
+          "dataStatus": "北しなの線19分後(豊野最終)"
         },
         {
           "departure": "23:32",
-          "destination": "長野",
+          "destination": "長野(最終)",
           "trainType": "普通",
           "cars": null,
           "connections": [],
@@ -698,7 +698,7 @@
           "connections": [],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線14分後"
+          "dataStatus": "北しなの線14分後(妙高最終)"
         },
         {
           "departure": "22:12",
@@ -708,7 +708,7 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線24分後"
+          "dataStatus": "飯山線24分後(最終)"
         },
         {
           "departure": "22:43",
@@ -718,11 +718,11 @@
           "connections": [],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線19分後"
+          "dataStatus": "北しなの線19分後(豊野最終)"
         },
         {
           "departure": "23:32",
-          "destination": "長野()",
+          "destination": "長野(最終)",
           "trainType": "普通",
           "cars": null,
           "connections": [],
@@ -742,7 +742,7 @@
           "connections": [],
           "origin": "長野",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "小海線小淵沢行き"
         },
         {
           "departure": "06:13",
