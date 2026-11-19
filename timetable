@@ -13,370 +13,370 @@
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後、北しなの線12分後"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後、北しなの線12分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:00",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線6分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線6分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:33",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線8分後"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線8分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:56",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "07:24",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "07:36",
           "destination": "豊野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "08:05",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "08:17",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "08:38",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "09:01",
           "destination": "妙高高原",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["妙高から先、トキ鉄 直江津行き5分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "妙高から先、トキ鉄 直江津行き5分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "09:35",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線31分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線31分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "10:17",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線15分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線15分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "10:52",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "11:33",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線20分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線20分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "12:13",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "12:53",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線5分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線5分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "13:33",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線12分後、北しなの線18分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線12分後、北しなの線18分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "14:13",
           "destination": "長野",
           "trainType": "普通",
           "cars": "軽井沢",
-          "connections": [],
+          "connections": ["飯山線34分後"],
           "origin": null,
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線34分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "14:45",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線19分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線19分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "15:17",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線8分後、飯山線33分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線8分後、飯山線33分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "15:53",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線18分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線18分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "16:20",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "16:46",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "16:59",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "17:28",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線18分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線18分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "17:51",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "18:03",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "18:20",
           "destination": "妙高高原",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["妙高から先、トキ鉄 直江津行き16分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "妙高から先、トキ鉄 直江津行き16分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "18:54",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "19:10",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線23分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線23分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "19:40",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線28分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線28分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "20:16",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "20:56",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線5分後、飯山線27分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線5分後、飯山線27分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "21:34",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線14分後(妙高最終)"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線14分後(妙高最終)"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "22:12",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線24分後(最終)"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線24分後(最終)"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "22:43",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線19分後(豊野最終)"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線19分後(豊野最終)"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "23:32",
           "destination": "長野(最終)",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         }
       ],
       "holiday": [
@@ -385,350 +385,350 @@
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後、北しなの線12分後"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後、北しなの線12分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:00",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線6分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線6分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:33",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線8分後"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線8分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:56",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "07:24",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "07:36",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "08:17",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "08:38",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "09:01",
           "destination": "妙高高原",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["妙高から先、トキ鉄 直江津行き5分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "妙高から先、トキ鉄 直江津行き5分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "09:35",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線31分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線31分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "10:17",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "10:52",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "11:33",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線20分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線20分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "12:13",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線3分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "12:53",
           "destination": "長野",
           "trainType": "普通",
           "cars": "軽井沢",
-          "connections": [],
+          "connections": ["北しなの線5分後"],
           "origin": null,
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線5分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "13:33",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線12分後、北しなの線18分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線12分後、北しなの線18分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "14:13",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線34分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線34分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "14:45",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線19分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線19分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "15:17",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線8分後、33分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線8分後、33分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "15:53",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線18分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線18分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "16:20",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "戸倉",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "16:46",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "16:59",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線3分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線3分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "17:28",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線18分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線18分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "17:51",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線2分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線2分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "18:20",
           "destination": "妙高高原",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["妙高から先、トキ鉄 直江津行き16分後、28分後"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "妙高から先、トキ鉄 直江津行き16分後、28分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "18:54",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "19:10",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線23分後"],
           "origin": "上田",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線23分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "19:40",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線28分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線28分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "20:16",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "20:56",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線5分後、飯山線27分後"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線5分後、飯山線27分後"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "21:34",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線14分後(妙高最終)"],
           "origin": "小諸",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線14分後(妙高最終)"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "22:12",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["飯山線24分後(最終)"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "飯山線24分後(最終)"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "22:43",
           "destination": "長野",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["北しなの線19分後(豊野最終)"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "北しなの線19分後(豊野最終)"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "23:32",
           "destination": "長野(最終)",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "軽井沢",
           "travelTimesMinutes": {},
-          "dataStatus": "接続なし"
+          "dataStatus": "確認済み"
         }
       ]
     },
@@ -739,64 +739,58 @@
           "destination": "軽井沢",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["小海線小淵沢行き16分後、横軽バス6分後"],
           "origin": "長野",
           "travelTimesMinutes": {},
-          "dataStatus": "小海線小淵沢行き"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:13",
           "destination": "軽井沢",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
+          "connections": ["接続なし"],
           "origin": "長野",
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:35",
           "destination": "小諸",
           "trainType": "普通",
           "cars": null,
-          "connections": [
-            "小諸駅で軽井沢行き接続（要時刻確認）"
-          ],
-          "origin": null,
+          "connections": ["軽井沢行き9分後],
+          "origin": 長野,
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "06:54",
           "destination": "小諸",
           "trainType": "普通",
           "cars": null,
-          "connections": [],
-          "origin": null,
+          "connections": ["小海線小海行き6分後],
+          "origin": 長野,
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "07:16",
           "destination": "小諸",
           "trainType": "普通",
           "cars": null,
-          "connections": [
-            "小諸駅で軽井沢行き接続（要時刻確認）"
-          ],
-          "origin": null,
+          "connections": ["軽井沢8分後"],
+          "origin": 長野,
           "travelTimesMinutes": {},
-          "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
+          "dataStatus": "確認済み"
         },
         {
           "departure": "07:38",
           "destination": "上田",
           "trainType": "普通",
           "cars": null,
-          "connections": [
-            "小諸駅で軽井沢行き接続（要時刻確認）"
-          ],
-          "origin": null,
+          "connections": ["接続なし"],
+          "origin": 長野,
           "travelTimesMinutes": {},
           "dataStatus": "発車時刻・行先の一次整理。詳細未調査"
         },
