@@ -760,7 +760,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": ["軽井沢行き9分後],
-          "origin": 長野,
+          "origin": "長野",
           "travelTimesMinutes": {},
           "dataStatus": "確認済み"
         },
@@ -770,7 +770,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": ["小海線小海行き6分後],
-          "origin": 長野,
+          "origin": "長野",
           "travelTimesMinutes": {},
           "dataStatus": "確認済み"
         },
@@ -780,7 +780,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": ["軽井沢8分後"],
-          "origin": 長野,
+          "origin": "長野",
           "travelTimesMinutes": {},
           "dataStatus": "確認済み"
         },
@@ -790,7 +790,7 @@
           "trainType": "普通",
           "cars": null,
           "connections": ["軽井沢行き12分後"],
-          "origin": 長野,
+          "origin": "長野",
           "travelTimesMinutes": {},
           "dataStatus": "確認済み"
         },
